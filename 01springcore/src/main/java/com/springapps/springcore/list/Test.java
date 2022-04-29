@@ -11,7 +11,7 @@ public class Test {
 		
 		//get the employee
 		Hospital hosp = (Hospital) context.getBean("hospital");
-		
+		System.out.println(hosp.getDepartments().getClass());
 		System.out.println(hosp);
 	}
 
